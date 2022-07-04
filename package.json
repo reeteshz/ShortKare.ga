@@ -1,0 +1,37 @@
+{
+  "name": "shortkarega",
+  "version": "1.0.0",
+  "description": "A URL Shortner Service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reeteshz/ShortKare.ga---URL-Shortner-Service.git"
+  },
+  "keywords": [
+    "url",
+    "shortner"
+  ],
+  "author": "Reetesh Zope",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reeteshz/ShortKare.ga---URL-Shortner-Service/issues"
+  },
+  "homepage": "https://github.com/reeteshz/ShortKare.ga---URL-Shortner-Service#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.4.2",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
